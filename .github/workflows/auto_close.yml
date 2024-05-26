@@ -16,7 +16,7 @@ jobs:
           # Do not mark issues or PRs as stale automaticaly
           days-before-stale: -1
           # Close issue/PR if no activity for four weeks after closure pending warning
-          days-before-close: 28
+          days-before-close: 27
           # Do not auto close PRs
           days-before-pr-close: -1
           # Do not auto-close an issue if it is assigned to a milestone
