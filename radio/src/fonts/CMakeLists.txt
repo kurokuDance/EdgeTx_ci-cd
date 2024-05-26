@@ -1,0 +1,11 @@
+#
+# LVGL fonts
+#
+
+set(LVGL_FONT_DIR fonts/lvgl)
+
+file(GLOB LVGL_FONTS
+  RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}/..
+  lvgl/lv_font_*.c)
+
+set(LVGL_FONT_SOURCES ${LVGL_FONTS} PARENT_SCOPE)
